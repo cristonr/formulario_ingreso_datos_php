@@ -1,0 +1,52 @@
+*{
+	background-color: #fafafa;
+
+}
+header {
+	
+	height: auto;
+	background-color: lightgrey;
+	display: flex;
+	justify-content: space-around;
+
+}
+h2{
+	height: 30px;
+	background-color: red;
+	opacity: 0.6;
+}
+a{
+	text-decoration: none;
+
+}
+a: hover{
+	background-color: blue;
+}
+
+	
+.formulario_carga, .recibido{
+	height: auto;
+	width: 300px;
+	display: flex;
+	border: solid 5px red;margin: 15px;
+	padding: 15px;
+}
+.formulario_carga{
+	text-align: center;
+}
+.form_I{
+	background-color: lightblue;
+	width: 100%;
+	height: 100%;
+	margin: 5px;
+	padding: 4px; 
+
+
+}
+.form_I input{
+	height: 2em;
+	width: 90%;
+	padding:5px;
+	margin: 5px;
+}
+
